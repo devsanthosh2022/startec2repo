@@ -20,3 +20,5 @@ resource "aws_instance" "bootcamp" {
   instance_type = "t2.micro"
   subnet_id = "${var.subnet_pub1}"
 }
+
+
